@@ -2,11 +2,13 @@ h1 {
    font-size: 60px; 
    text-align: center;
    padding: 15px;
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .lista{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
 }
@@ -19,9 +21,33 @@ h1 {
 }
 
 .card{
-    border: 2px solid;
-    width: 15em;
+    justify-content: center;
+    border: 2px double darkblue;
+    width: 18em;
     height: auto;
     padding: 15px;
+    margin: 5px 10px;
+    border-radius: 20px;
+}
+
+.card:hover
+{ 
+        background:#66a7fd;   
+}  
+.card:hover
+{
+        -xpedu-transform: scale(0.2);
+        -ms-transform: scale(1);
+        transform: scale(0.92);
+}
+
+.titulo-produto {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.valor {
+    font-size: 2em;
+    color: red;
 }
 
