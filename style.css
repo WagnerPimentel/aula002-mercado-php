@@ -19,6 +19,9 @@ h1 {
 }
 
 .card{
-    justify-content: space-around;
+    border: 2px solid;
+    width: 15em;
+    height: auto;
+    padding: 15px;
 }
 
