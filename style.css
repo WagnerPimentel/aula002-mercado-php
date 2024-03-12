@@ -1,0 +1,24 @@
+h1 {
+   font-size: 60px; 
+   text-align: center;
+   padding: 15px;
+}
+
+.lista{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.lista img{
+    width: 9em;
+    height: auto;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.card{
+    justify-content: space-around;
+}
+
